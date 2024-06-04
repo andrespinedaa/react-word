@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .codeview{
     width: 100%;
     position: relative;
@@ -24,4 +25,32 @@
     .codeview{
         width: 400px;
     }
+=======
+.codeview{
+    width: 100%;
+    position: relative;
+
+
+    & > pre {
+        width: 100%;
+    }
+    .codeview__copybutton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        background-color: #eef1f4;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+ @media screen and (max-width: 1300px) {
+    .codeview{
+        width: 400px;
+    }
+>>>>>>> 2dec7df8336274513ba510492545b77822401e48
 } 

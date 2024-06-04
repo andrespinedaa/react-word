@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header{
     width: 100%;
     margin-top: 50px;
@@ -33,4 +34,41 @@
         margin: 50px;
         width: 80%; /* Ajusta el ancho del .header a 80% */
     }
+=======
+.header{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header__nav{
+        .header__nav--menu{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+
+            .header__nav--link > a{
+                cursor: pointer;
+                text-decoration: none;
+                color: #000;
+            }
+        };
+    }
+}
+
+/* QUERIES */
+
+@media screen and (max-width: 1800px) {
+    .header {
+        margin: 50px;
+        width: 90%; /* Ajusta el ancho del .header a 90% */
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .header {
+        margin: 50px;
+        width: 80%; /* Ajusta el ancho del .header a 80% */
+    }
+>>>>>>> 2dec7df8336274513ba510492545b77822401e48
 }
