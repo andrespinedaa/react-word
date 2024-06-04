@@ -1,0 +1,34 @@
+.home {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+    .home__performance{
+        width: 500px;
+        .home__performance--text{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            text-wrap: pretty;
+            gap: 10px;
+        }
+    }
+}
+
+/* QUERIES */
+
+@media screen and (max-width: 1800px) {
+    .home {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .home {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  }
+  

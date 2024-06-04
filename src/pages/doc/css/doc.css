@@ -1,0 +1,21 @@
+.componentCode {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    .componentCode__text {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-wrap: pretty;
+        gap: 10px;
+    }
+
+    .code {
+        width: 400px;
+    }
+}
+
+/* QUERIES */
